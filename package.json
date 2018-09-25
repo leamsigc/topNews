@@ -1,0 +1,16 @@
+{
+  "name": "news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "ismael Garcia Canseco",
+  "license": "ISC",
+  "homepage":"https://leamsigc.github.io/topNews",
+  "dependencies": {
+    "gh-pages": "^2.0.0"
+  }
+}
