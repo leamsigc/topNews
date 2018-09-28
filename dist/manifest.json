@@ -1,9 +1,10 @@
 {
-  "name": "Top News",
-  "short_name": "gc",
-  "theme_color": "#392f4f",
-  "background_color": "#899298",
-  "display": "standalone",
-  "scope": "/",
-  "start_url": "/"
+	"name": "Top News",
+	"short_name": "News",
+	"theme_color": "#392f4f",
+	"description": "Progressive web application for the top news from different sources",
+	"background_color": "#899298",
+	"display": "standalone",
+	"scope": "/",
+	"start_url": "/"
 }

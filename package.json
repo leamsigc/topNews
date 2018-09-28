@@ -9,8 +9,9 @@
   "keywords": [],
   "author": "ismael Garcia Canseco",
   "license": "ISC",
-  "homepage":"https://leamsigc.github.io/topNews",
+  "homepage": "https://leamsigc.github.io/topNews",
   "dependencies": {
-    "gh-pages": "^2.0.0"
+    "gh-pages": "^2.0.0",
+    "workbox-sw": "^3.6.1"
   }
 }
