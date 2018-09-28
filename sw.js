@@ -1,8 +1,6 @@
-importScripts('../node_modules/workbox-sw/build/workbox-sw.js');
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.6.1/workbox-sw.js');
 const staticAssets = ['./', './style.css', './app.js', './today.png'];
 
-const wb = new workbox();
+workbox.precaching.precache(staticAssets);
 
-wb.precache(staticAssets);
-
-wb.router.registerRoute('https://newsapi.org/(.*)', wb.strategies.networkFirst());
+workbox.routing.registerRoute('https://newsapi.org/(.*)', workbox.strategies.networkFirst());
